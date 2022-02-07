@@ -76,16 +76,18 @@ public class Main {
         i=a=0;
         b=1;
         System.out.print(a+",");
-        System.out.print(b+",");
+        System.out.print(b);
         while(i<num-2)
         {
             c=a+b;
             a=b;
             b=c;
-            System.out.print(c+",");
+            System.out.print(",");
+            System.out.print(c);
+
             i+=1;
         }
-
+        System.out.println();
 
     }
 
